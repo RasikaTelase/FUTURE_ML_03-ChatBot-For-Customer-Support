@@ -1,0 +1,169 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening", "Howdy", "Hi there", "Hey there"],
+      "responses": ["Hello! How can I help you today? 😊", "Hi there! Need any assistance?", "Hey! How’s it going?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later", "Catch you later", "See ya", "Talk to you later"],
+      "responses": ["Goodbye! Have a great day! 👋", "See you soon! Take care!", "Bye! Come back anytime."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Thanks a lot", "Much appreciated", "Thx", "Thank you very much"],
+      "responses": ["You’re welcome! 😄", "Happy to help!", "Anytime!"]
+    },
+    {
+      "tag": "order_status",
+      "patterns": ["Where is my order?", "Track my order", "Order status", "Check my order", "Track package", "Order tracking", "Order update", "Delivery status", "Shipment info"],
+      "responses": ["Please provide your order ID to check the status.", "Sure! Can you give me your order number?"]
+    },
+    {
+      "tag": "refund",
+      "patterns": ["I want a refund", "How can I return my product?", "Refund policy", "Return order", "Money back", "Cancel my payment", "Refund request"],
+      "responses": ["You can initiate a refund within 7 days of delivery through your orders page.", "Refunds are processed within 5 business days."]
+    },
+    {
+      "tag": "cancel_order",
+      "patterns": ["Cancel my order", "I want to cancel my order", "Order cancellation", "Stop my order", "Remove order"],
+      "responses": ["You can cancel your order within 24 hours of placing it.", "Please provide your order ID to cancel."]
+    },
+    {
+      "tag": "working_hours",
+      "patterns": ["What are your working hours?", "When are you open?", "Business hours", "Office timing", "Opening time", "Closing time"],
+      "responses": ["Our working hours are 9 AM - 6 PM, Monday to Friday. 🕒"]
+    },
+    {
+      "tag": "reset_password",
+      "patterns": ["How can I reset my password?", "Forgot password", "Change my password", "Password recovery", "Password reset link"],
+      "responses": ["You can reset your password here: https://example.com/reset 🔑"]
+    },
+    {
+      "tag": "return_policy",
+      "patterns": ["What is the return policy?", "Can I return my order?", "Exchange policy", "Return item", "Refund rules"],
+      "responses": ["You can return products within 30 days of delivery. 📦"]
+    },
+    {
+      "tag": "payment_issue",
+      "patterns": ["Payment failed", "Payment not working", "Transaction error", "Cannot pay", "Payment declined", "Billing problem", "Payment issue", "Check payment"],
+      "responses": ["Please check your payment method and try again. 💳", "Contact support if the issue persists."]
+    },
+    {
+      "tag": "account_issue",
+      "patterns": ["Cannot login", "Login problem", "Account locked", "Profile issue", "Account issue", "Can't access my account", "Login failed"],
+      "responses": ["Please reset your password or contact support for account issues. 🔐"]
+    },
+    {
+      "tag": "promo_discount",
+      "patterns": ["Do you have discounts?", "Promo code", "Any ongoing offers?", "Sales", "Deals", "Special offer", "Discount code", "Coupon"],
+      "responses": ["Check our latest promotions here: https://example.com/offers 🎉"]
+    },
+    {
+      "tag": "shipping_info",
+      "patterns": ["Shipping cost", "Delivery time", "When will my order arrive?", "Shipping details", "Track shipment", "Shipping fee", "Delivery tracking"],
+      "responses": ["Shipping usually takes 3-5 business days. 🚚", "You can track your shipment with your order ID."]
+    },
+    {
+      "tag": "loyalty_program",
+      "patterns": ["Loyalty program", "Rewards points", "Membership benefits", "How to earn points", "Reward program", "Loyalty points", "VIP program"],
+      "responses": ["Join our loyalty program to earn points and get exclusive discounts! 🏆"]
+    },
+    {
+      "tag": "technical_support",
+      "patterns": ["App not working", "Website error", "Cannot access website", "Bug", "Technical issue", "App crash", "Website down", "Issue with app"],
+      "responses": ["Please clear your cache or try again. Contact support if the issue persists. ⚙️"]
+    },
+    {
+      "tag": "product_info",
+      "patterns": ["Product details", "Tell me about this product", "Product specification", "What does this product include?", "Info about product"],
+      "responses": ["You can find detailed product information on our product page. 🛍️"]
+    },
+    {
+      "tag": "subscription",
+      "patterns": ["Cancel subscription", "Upgrade plan", "Subscription issue", "Renew subscription", "Change plan"],
+      "responses": ["Manage your subscription in your account settings. 🔄"]
+    },
+    {
+      "tag": "feedback",
+      "patterns": ["I want to give feedback", "Report a problem", "Complaint", "Suggestion", "Feedback form"],
+      "responses": ["Thank you for your feedback! We will review it promptly. 📝"]
+    },
+    {
+      "tag": "contact_info",
+      "patterns": ["How can I contact support?", "Support contact", "Customer service number", "Email support", "Reach support"],
+      "responses": ["You can contact us at support@example.com or call 1800-123-4567. ☎️"]
+    },
+    {
+      "tag": "shared_product",
+      "patterns": ["Share product", "Send product link", "Share this item", "Forward product", "Share with friend"],
+      "responses": ["You can share this product using the share button on the product page. 🔗"]
+    },
+    {
+      "tag": "product_ratings",
+      "patterns": ["Product rating", "Reviews of this product", "Customer ratings", "How good is this product?", "Feedback on product"],
+      "responses": ["This product has an average rating of 4.5⭐ based on 1200 reviews. 🌟"]
+    },
+    {
+      "tag": "legal_policies",
+      "patterns": ["Legal policies", "Terms and conditions", "Privacy policy", "User agreement", "Policies", "Company policies", "Legal info"],
+      "responses": ["You can read our legal policies here: https://example.com/legal 📄"]
+    },
+    {
+      "tag": "bank_info",
+      "patterns": ["My bank details", "Bank account info", "Account number", "UPI ID", "Payment info"],
+      "responses": ["For security reasons, I cannot display full account numbers. You can view your banking details in your app securely. 💳"]
+    },
+    {
+      "tag": "upi_info",
+      "patterns": ["My UPI ID", "UPI payment details", "UPI info", "Check UPI"],
+      "responses": ["Your registered UPI ID is linked to your account. You can use it for payments and transfers. 📲"]
+    },
+    {
+      "tag": "balance",
+      "patterns": ["My balance", "Check balance", "Account balance", "Wallet balance"],
+      "responses": ["Your current account balance is ₹12,345. 💰"]
+    },
+    {
+      "tag": "wishlisted_product",
+      "patterns": ["My wishlist", "Saved products", "Favorite items", "Wishlist items"],
+      "responses": ["Here are your wishlisted products: Product A, Product B, Product C. 🛒"]
+    },
+    {
+      "tag": "language_change",
+      "patterns": ["Change language", "Switch language", "Set language", "Language preferences"],
+      "responses": ["You can change the language in settings. 🌐"]
+    },
+    {
+      "tag": "customer_care",
+      "patterns": ["Customer care", "Contact support", "Talk to agent", "Helpdesk", "Call support"],
+      "responses": ["You can reach our customer care at 1800-123-4567 or email support@example.com. ☎️"]
+    },
+    {
+      "tag": "settings",
+      "patterns": ["Settings", "Update settings", "App settings", "Profile settings"],
+      "responses": ["You can modify your preferences and account settings in the Settings section. ⚙️"]
+    },
+    {
+      "tag": "help_center",
+      "patterns": ["Help center", "FAQs", "Support center", "Need help", "Assistance"],
+      "responses": ["Visit our Help Center at https://example.com/help for detailed FAQs and support articles. 🆘"]
+    },
+    {
+      "tag": "date",
+      "patterns": ["What is the date today?", "Today's date", "Date now", "Current date", "Which date is it today?"],
+      "responses": ["Today’s date is {date} 📅"]
+    },
+    {
+      "tag": "day",
+      "patterns": ["What day is it today?", "Day today", "Which day is it?", "What weekday is it today?"],
+      "responses": ["Today is {day} 🗓️"]
+    },
+    {
+      "tag": "time",
+      "patterns": ["What time is it?", "Current time", "Time now", "Tell me the time", "Clock now"],
+      "responses": ["The current time is {time} ⏰"]
+    }
+  ]
+}
